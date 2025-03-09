@@ -4,83 +4,86 @@
 
 * {
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 header {
-    margin: 44px 0px 144px 76px;
+    margin-left: 42px;
+    margin-top: 42px;
 }
 
-.link-header {
-    color: #989d9c;
+.header-link {
+    color: #989D9C;
     font-size: 24px;
     font-weight: 600;
     line-height: 29px;
+    margin-right: 32px;
     cursor: pointer;
-    margin-right: 23px;
-    text-transform: uppercase;
 }
 
-.login-button {
+.header-button {
     color: white;
     font-size: 24px;
     font-weight: 600;
     line-height: 29px;
-    background: #665ae1;
+    background: #665AE1;
+    border: none;
+    border-radius: 25px;
     width: 130px;
     height: 41px;
-    border-radius: 20.5px;
-    border: none;
     cursor: pointer;
 }
 
-.logo-image {
-    width:568px;
-    height:500px;
-    margin-left: 125px;
-    display: inline-block;
+.section-image {
+    width: 550px;
+    height: 500px;
 }
 
-section {
-    display: inline-block;
-    margin-left: 86px;
+.main-page {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px 85px 0;
 }
 
-h1 {
-    line-height: 122px;
-    font-size: 100px;
+.texts {
+    width: 514px;
+}
+
+.title {
     color: #515151;
-    font-weight:900;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 122px;
 }
 
-h2 {
+.subtitle {
     color: #515151;
     font-size: 58px;
     font-weight: 500;
     line-height: 71px;
+    margin-bottom: 30px;
 }
 
-p {
+.desc {
     font-size: 24px;
-    font-weight: 400;
-    line-height: 29px;
     color: #848484;
-    width: 515px;
-    margin: 32px 0px 65px;
+    line-height: 29px;
+    font-weight: 400;
+    margin-bottom: 40px;
 }
 
-.explore {
-    color: black;
-    font-weight: 700;
+.button-explore {
+    color: rgb(0, 0, 0);
     font-size: 28px;
+    font-weight: 700;
     line-height: 34px;
     background: #ADFF00;
+    border: none;
+    border-radius: 30px;
     width: 239px;
     height: 64px;
-    border-radius: 30px;
-    border:none;
-    cursor: pointer;
     filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
